@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A(I) Can Do That!? Submissions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>A(I) Can Do That!? Submissions</h1>
+        </header>
+
+        <div class="top-performers">
+            <h2>Top 10 Submissions ⭐</h2>
+            <div class="top-10-grid">
+                <div class="top-entry"><span class="award">🥇</span> Terry Penner</div>
+                <div class="top-entry"><span class="award">🥈</span> Alexandra Brekke</div>
+                <div class="top-entry"><span class="award">🥉</span> Mudita Mithel</div>
+                <div class="top-entry"><span class="award">✨</span> Aurelia Catalina</div>
+                <div class="top-entry"><span class="award">✨</span> Ariel Furriel</div>
+                <div class="top-entry"><span class="award">✨</span> Anthony Hopkins</div>
+                <div class="top-entry"><span class="award">✨</span> Atul Savur</div>
+                <div class="top-entry"><span class="award">✨</span> Eithel Meza</div>
+                <div class="top-entry"><span class="award">✨</span> Kevin Antony Gomez</div>
+                <div class="top-entry"><span class="award">✨</span> Patrick Hansen</div>
+            </div>
+        </div>
+
+        <div class="dashboard">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All Submissions</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="disqualified">Disqualified</button>
+            </div>
+
+            <div class="submissions-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Submission</th>
+                            <th>Score</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Table content will be populated with data -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for scoring breakdown -->
+    <div id="scoreModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title"></h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="score-breakdown">
+                    <div class="category">
+                        <h3>Creativity <span class="score"></span></h3>
+                        <p class="explanation"></p>
+                    </div>
+                    <div class="category">
+                        <h3>Replicability <span class="score"></span></h3>
+                        <p class="explanation"></p>
+                    </div>
+                    <div class="category">
+                        <h3>Storytelling <span class="score"></span></h3>
+                        <p class="explanation"></p>
+                    </div>
+                    <div class="category">
+                        <h3>Impact <span class="score"></span></h3>
+                        <p class="explanation"></p>
+                    </div>
+                </div>
+                <div class="total-score">
+                    <h3>Total Score: <span></span></h3>
+                </div>
+                <div class="video-section">
+                    <button class="watch-video-btn">Watch Video Submission</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
