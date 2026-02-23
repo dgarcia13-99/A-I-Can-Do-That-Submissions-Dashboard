@@ -6,5 +6,5 @@
 
 <img width="1607" height="852" alt="Screenshot 2026-02-22 at 10 05 43 PM" src="https://github.com/user-attachments/assets/6f454540-f13a-4071-8221-e7500a29d24b" />
 
-#### View the agent's work [here](https://a-i-can-do-that-submissions-dashboard.onrender.com) !
+#### View the agent's work [here](https://a-i-can-do-that-submissions-dashboard.onrender.com/) !
 
